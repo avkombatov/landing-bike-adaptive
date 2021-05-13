@@ -1,0 +1,146 @@
+.header {
+  height: 800px;
+  background-image: url(img/header/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header_ul {
+  margin-top: 70px;
+}
+
+.header_ul li {
+  display: inline;
+  margin-right: 40px;
+}
+
+.header_li_a {
+  font-weight: bold;
+  font-size: 13px;
+  color: #4D4959;
+}
+
+.header_li_a:hover {
+  color: #FF5300;
+}
+
+.header_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header_menu_logo {
+  margin-top: 30px;
+  margin-right: 40px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    background-size: 100% 100%;
+    height: 500px;
+  }
+}
+
+@media (max-width: 425px) {
+  .header {
+    height: 300px;
+  }
+  .header_li_a {
+    font-size: 12px;
+  }
+  .header_ul {
+    margin-top: 40px;
+  }
+  .header_menu_logo {
+    height: 55px;
+    width: 60px;
+    margin-top: 20px;
+    margin-right: 13px;
+  }
+  .header_ul li {
+    margin-right: 10px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato';
+}
+
+.center {
+  padding-left: calc(50% - 590px);
+  padding-right: calc(50% - 590px);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.vintage {
+  height: 475px;
+  background-color: #F7F7F7;
+}
+
+.vintage_top {
+  padding-top: 125px;
+  text-align: center;
+}
+
+.vintage_top_logo {
+  margin-bottom: 35px;
+}
+
+.vintage_top_h2 {
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #353738;
+}
+
+.vintage_top_p {
+  color: #8F9193;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 34px;
+}
+
+@media (max-width: 1024px) {
+  .vintage {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .vintage {
+    height: 410px;
+  }
+  .vintage_top {
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 425px) {
+  .vintage_top {
+    padding-top: 35px;
+  }
+  .vintage_top_h2 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .vintage_top_p {
+    font-size: 13px;
+    line-height: 27px;
+    padding-top: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
