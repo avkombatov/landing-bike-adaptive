@@ -22,6 +22,8 @@
 
 .header_li_a:hover {
   color: #FF5300;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .header_menu {
@@ -77,6 +79,11 @@
   padding-right: calc(50% - 590px);
 }
 
+.no_center {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -85,28 +92,36 @@ ul li {
   list-style-type: none;
 }
 
+.hr {
+  width: 50px;
+  margin-left: 180px;
+  background-color: #E3E3E3;
+  border: none;
+  height: 2px;
+  margin-top: 25px;
+}
+
 .vintage {
-  height: 475px;
+  height: 1070px;
+  background-color: #F7F7F7;
+  text-align: center;
+  height: 470px;
   background-color: #F7F7F7;
 }
 
-.vintage_top {
-  padding-top: 125px;
-  text-align: center;
-}
-
-.vintage_top_logo {
+.vintage_logo {
   margin-bottom: 35px;
+  margin-top: 118px;
 }
 
-.vintage_top_h2 {
+.vintage_h2 {
   margin-bottom: 40px;
   font-weight: bold;
   font-size: 18px;
   color: #353738;
 }
 
-.vintage_top_p {
+.vintage_p {
   color: #8F9193;
   font-size: 18px;
   font-weight: normal;
@@ -122,25 +137,94 @@ ul li {
 
 @media (max-width: 768px) {
   .vintage {
-    height: 410px;
+    height: 450px;
   }
-  .vintage_top {
-    padding-top: 60px;
+  .vintage_logo {
+    margin-top: 40px;
   }
 }
 
 @media (max-width: 425px) {
-  .vintage_top {
-    padding-top: 35px;
+  .vintage {
+    padding-left: 6%;
+    padding-right: 6%;
   }
-  .vintage_top_h2 {
+  .vintage_logo {
+    margin-top: 40px;
+  }
+  .vintage_h2 {
     font-size: 15px;
     margin-bottom: 10px;
   }
-  .vintage_top_p {
+  .vintage_p {
     font-size: 13px;
     line-height: 27px;
     padding-top: 20px;
   }
+}
+
+.oliva {
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.oliva_left {
+  height: 600px;
+  width: 100px;
+  background-image: url(img/oliva/background_left.png);
+  background-repeat: no-repeat;
+  -webkit-box-flex: 2;
+      -ms-flex-positive: 2;
+          flex-grow: 2;
+  position: relative;
+}
+
+.oliva_left_logo {
+  position: absolute;
+  margin-left: 44%;
+  margin-top: 30%;
+}
+
+.oliva_right {
+  width: 100px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.oliva_right_top {
+  padding-left: 8%;
+  padding-right: 8%;
+  text-align: center;
+  height: 400px;
+  background-color: #F7F7F7;
+}
+
+.oliva_right_top_logo {
+  margin-top: 65px;
+  margin-bottom: 30px;
+}
+
+.oliva_right_top_h2 {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.oliva_right_top_p {
+  color: #9EA0A2;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.oliva_right_bottom {
+  background-image: url(img/oliva/background-right.png);
+  background-repeat: no-repeat;
+  height: 200px;
 }
 /*# sourceMappingURL=style.css.map */
