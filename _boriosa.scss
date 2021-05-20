@@ -1,42 +1,22 @@
-.oliva {
-    height: 600px;
+.boriosa {
     display: flex;
     flex-direction: row;
+    height: 600px;
+    position: relative;
 
     &_left {
-
-        height: 600px;
-        width: 100px;
-        filter: brightness(85%);
-        background-image: url(img/oliva/background_left.png);
-        background-repeat: no-repeat;
-        flex-grow: 2;
-        position: relative;
-
-        &_logo {
-            position: absolute;
-            margin-left: 370px;
-            margin-top: 250px;
-        }
-    }
-
-    &_right {
-
-        width: 100px;
         flex-grow: 1;
+        width: 100px;
 
         &::after {
             @include after;
         }
 
-               &_top {
+        &_top {
+            height: 400px;
             padding-left: 8%;
             padding-right: 8%;
             text-align: center;
-            height: 400px;
-            position: relative;
-
-
 
 
 
@@ -55,17 +35,35 @@
                 font-size: 16px;
                 line-height: 30px;
             }
-
         }
 
+
+
         &_bottom {
-            filter: brightness(85%);
-            background-image: url(img/oliva/background-right.png);
-            background-repeat: no-repeat;
             height: 200px;
-
-
+            filter: brightness(85%);
+            background-image: url(img/boriosa/background_left.png);
+            background-repeat: no-repeat;
         }
     }
 
+    &_right {
+        position: relative;
+        flex-grow: 2;
+        height: 600px;
+        width: 100px;
+        background: url(img/boriosa/background-right.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        filter: brightness(85%);
+        background-size: 100% 100%;
+
+        &_logo {
+            display: block;
+            position: absolute;
+            margin-left: 810px;
+            margin-top: 220px;
+
+        }
+    }
 }
