@@ -22,13 +22,16 @@
     &_left {
         background-image: url(img/hulot/background-left.png);
         background-repeat: no-repeat;
-        filter: brightness(85%);
-&_logo{
-    margin-top: 268px;
-    margin-left: 150px;
-    position: absolute;
-    display: block;
-}
+        position: relative;
+
+
+        &_logo {
+            margin-top: 268px;
+            margin-left: 150px;
+            position: absolute;
+
+
+        }
     }
 
     &_middle {
@@ -49,7 +52,7 @@
                 background-color: white;
                 margin-left: 182px;
                 margin-top: 37px;
-
+z-index: 1;
             }
 
             &_logo {
@@ -72,18 +75,16 @@
         }
 
         &_bottom {
+            position: relative;
             background-image: url(img/hulot/background-middle.png);
-            filter: brightness(85%);
             background-repeat: no-repeat;
             height: 200px;
         }
     }
 
     &_right {
-
+        position: relative;
         background-image: url(img/hulot/background-right.png);
-        filter: brightness(85%);
         background-repeat: no-repeat;
-
     }
 }

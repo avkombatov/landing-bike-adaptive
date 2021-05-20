@@ -37,11 +37,10 @@
             }
         }
 
-
-
         &_bottom {
+            position: relative;
             height: 200px;
-            filter: brightness(85%);
+          
             background-image: url(img/boriosa/background_left.png);
             background-repeat: no-repeat;
         }
@@ -55,13 +54,13 @@
         background: url(img/boriosa/background-right.png);
         background-repeat: no-repeat;
         background-position: center;
-        filter: brightness(85%);
+        
         background-size: 100% 100%;
 
         &_logo {
-            display: block;
+           
             position: absolute;
-            margin-left: 810px;
+            margin-left: 325px;
             margin-top: 220px;
 
         }

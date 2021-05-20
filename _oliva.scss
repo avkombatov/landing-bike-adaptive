@@ -7,7 +7,6 @@
 
         height: 600px;
         width: 100px;
-        filter: brightness(85%);
         background-image: url(img/oliva/background_left.png);
         background-repeat: no-repeat;
         flex-grow: 2;
@@ -15,6 +14,7 @@
 
         &_logo {
             position: absolute;
+            z-index: 1;
             margin-left: 370px;
             margin-top: 250px;
         }
@@ -29,7 +29,7 @@
             @include after;
         }
 
-               &_top {
+        &_top {
             padding-left: 8%;
             padding-right: 8%;
             text-align: center;
@@ -59,7 +59,7 @@
         }
 
         &_bottom {
-            filter: brightness(85%);
+            position: relative;
             background-image: url(img/oliva/background-right.png);
             background-repeat: no-repeat;
             height: 200px;

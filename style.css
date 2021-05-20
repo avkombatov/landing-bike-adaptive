@@ -107,6 +107,16 @@ ul li {
   margin-top: 25px;
 }
 
+.dimming {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.3;
+}
+
 .vintage {
   height: 1070px;
   background-color: #F7F7F7;
@@ -183,8 +193,6 @@ ul li {
 .oliva_left {
   height: 600px;
   width: 100px;
-  -webkit-filter: brightness(85%);
-          filter: brightness(85%);
   background-image: url(img/oliva/background_left.png);
   background-repeat: no-repeat;
   -webkit-box-flex: 2;
@@ -195,6 +203,7 @@ ul li {
 
 .oliva_left_logo {
   position: absolute;
+  z-index: 1;
   margin-left: 370px;
   margin-top: 250px;
 }
@@ -244,8 +253,7 @@ ul li {
 }
 
 .oliva_right_bottom {
-  -webkit-filter: brightness(85%);
-          filter: brightness(85%);
+  position: relative;
   background-image: url(img/oliva/background-right.png);
   background-repeat: no-repeat;
   height: 200px;
@@ -307,9 +315,8 @@ ul li {
 }
 
 .boriosa_left_bottom {
+  position: relative;
   height: 200px;
-  -webkit-filter: brightness(85%);
-          filter: brightness(85%);
   background-image: url(img/boriosa/background_left.png);
   background-repeat: no-repeat;
 }
@@ -324,15 +331,12 @@ ul li {
   background: url(img/boriosa/background-right.png);
   background-repeat: no-repeat;
   background-position: center;
-  -webkit-filter: brightness(85%);
-          filter: brightness(85%);
   background-size: 100% 100%;
 }
 
 .boriosa_right_logo {
-  display: block;
   position: absolute;
-  margin-left: 810px;
+  margin-left: 325px;
   margin-top: 220px;
 }
 
@@ -363,15 +367,13 @@ ul li {
 .hulot_left {
   background-image: url(img/hulot/background-left.png);
   background-repeat: no-repeat;
-  -webkit-filter: brightness(85%);
-          filter: brightness(85%);
+  position: relative;
 }
 
 .hulot_left_logo {
   margin-top: 268px;
   margin-left: 150px;
   position: absolute;
-  display: block;
 }
 
 .hulot_middle_top {
@@ -393,6 +395,7 @@ ul li {
   background-color: white;
   margin-left: 182px;
   margin-top: 37px;
+  z-index: 1;
 }
 
 .hulot_middle_top_logo {
@@ -412,17 +415,15 @@ ul li {
 }
 
 .hulot_middle_bottom {
+  position: relative;
   background-image: url(img/hulot/background-middle.png);
-  -webkit-filter: brightness(85%);
-          filter: brightness(85%);
   background-repeat: no-repeat;
   height: 200px;
 }
 
 .hulot_right {
+  position: relative;
   background-image: url(img/hulot/background-right.png);
-  -webkit-filter: brightness(85%);
-          filter: brightness(85%);
   background-repeat: no-repeat;
 }
 /*# sourceMappingURL=style.css.map */
