@@ -490,6 +490,8 @@ ul li {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .shop_left {
@@ -675,5 +677,152 @@ ul li {
   color: white;
   width: 100px;
   display: none;
+}
+
+.shop_button {
+  height: 200px;
+  background-color: black;
+}
+
+.shop_button_a {
+  display: block;
+  color: #B7BABC;
+  border: 1px solid #B7BABC;
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  padding-top: 13px;
+}
+
+.shop_button_a:hover {
+  color: #FF5300;
+  border: 1px solid #FF5300;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.button_block {
+  width: 300px;
+  height: 50px;
+  padding-top: 75px;
+  margin: 0px auto;
+}
+
+.email {
+  height: 470px;
+  background: white;
+  text-align: center;
+}
+
+.email_logo {
+  margin-top: 110px;
+  margin-bottom: 45px;
+}
+
+.email_p {
+  margin-bottom: 45px;
+  font-style: italic;
+  font-size: 24px;
+  color: #9EA0A2;
+}
+
+.email_input {
+  width: 400px;
+  height: 70px;
+  outline: none;
+  border: 1px solid #E3E6E7;
+  color: black;
+  padding-left: 25px;
+  font-size: 22px;
+}
+
+.email_input::-webkit-input-placeholder {
+  font-size: 20px;
+  color: #D8D8D8;
+  font-style: italic;
+}
+
+.email_input:-ms-input-placeholder {
+  font-size: 20px;
+  color: #D8D8D8;
+  font-style: italic;
+}
+
+.email_input::-ms-input-placeholder {
+  font-size: 20px;
+  color: #D8D8D8;
+  font-style: italic;
+}
+
+.email_input::placeholder {
+  font-size: 20px;
+  color: #D8D8D8;
+  font-style: italic;
+}
+
+.email_button {
+  height: 70px;
+  width: 125px;
+  margin-left: 10px;
+  background: #64C29E;
+  cursor: pointer;
+  border: none;
+  font-size: 24px;
+  color: white;
+}
+
+.email_button:hover {
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.email_form {
+  margin: 0 auto;
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer {
+  height: 250px;
+  background: #F7F7F7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 100px;
+}
+
+.footer_address {
+  font-style: italic;
+  color: #8B8E8F;
+}
+
+.footer_social_img {
+  margin-right: 15px;
+}
+
+.footer_logo {
+  font-style: italic;
+  color: #8B8E8F;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer_logo_img {
+  height: 36px;
+  margin-left: 10px;
+  margin-top: -7px;
+}
+
+.span_address {
+  font-weight: bold;
+  color: #888A8C;
 }
 /*# sourceMappingURL=style.css.map */

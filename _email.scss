@@ -1,0 +1,59 @@
+.email {
+    height: 470px;
+    background: white;
+    text-align: center;
+
+    &_logo {
+        margin-top: 110px;
+        margin-bottom: 45px;
+    }
+
+    &_p {
+        margin-bottom: 45px;
+        font-style: italic;
+        font-size: 24px;
+        color: #9EA0A2;
+    }
+
+    &_input {
+        width: 400px;
+        height: 70px;
+        outline: none;
+        border: 1px solid #E3E6E7;
+        color: black;
+        padding-left: 25px;
+        font-size: 22px;
+
+        &::placeholder {
+            font-size: 20px;
+            color: #D8D8D8;
+            font-style: italic;
+        }
+    }
+
+    &_button {
+        height: 70px;
+        width: 125px;
+        margin-left: 10px;
+        background: #64C29E;
+        cursor: pointer;
+        border: none;
+        font-size: 24px;
+        color: white;
+
+
+        &:hover {
+            transform: scale(1.06);
+            transition: 0.2s;
+        }
+
+
+    }
+
+    &_form {
+        margin: 0 auto;
+        width: 500px;
+        display: flex;
+    }
+
+}

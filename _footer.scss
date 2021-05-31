@@ -1,0 +1,37 @@
+.footer {
+    height: 250px;
+    background: #F7F7F7;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+
+    &_address {
+        font-style: italic;
+        color: #8B8E8F;
+    }
+
+    &_social {
+        &_img {
+            margin-right: 15px;
+
+        }
+    }
+
+    &_logo {
+        font-style: italic;
+        color: #8B8E8F;
+        display: flex;
+        &_img{
+            height: 36px;
+            margin-left: 10px;
+            margin-top: -7px;
+        }
+    }
+
+
+}
+
+.span_address {
+    font-weight: bold;
+    color: #888A8C;
+}
