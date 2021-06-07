@@ -151,6 +151,9 @@ ul li {
     padding-left: 10%;
     padding-right: 10%;
   }
+  .vintage_logo {
+    margin-top: 75px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -259,6 +262,58 @@ ul li {
   background-image: url(img/oliva/background-right.png);
   background-repeat: no-repeat;
   height: 200px;
+}
+
+@media (max-width: 1024px) {
+  .oliva {
+    height: 1305px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .oliva_left {
+    height: 520px;
+    width: 100%;
+    position: relative;
+  }
+  .oliva_left_logo {
+    position: absolute;
+    z-index: 2;
+    margin-left: 450px;
+    margin-top: 200px;
+  }
+  .oliva_right {
+    width: 100%;
+  }
+  .oliva_right::after {
+    margin-top: -393px;
+    margin-left: 500px;
+  }
+  .oliva_right_top {
+    text-align: center;
+    height: 400px;
+    position: relative;
+  }
+  .oliva_right_bottom {
+    background-image: url(img/oliva/background-right.png);
+    background-repeat: no-repeat;
+    height: 385px;
+    background-size: cover;
+  }
+  .dimming {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.hr {
+  margin-left: 397px;
 }
 
 .boriosa {

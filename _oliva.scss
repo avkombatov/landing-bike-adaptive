@@ -69,3 +69,63 @@
     }
 
 }
+
+@media (max-width: 1024px) {
+    .oliva {
+        height: 1305px;
+        display: flex;
+        flex-direction: column;
+
+        &_left {
+            height: 520px;
+            width: 100%;
+            position: relative;
+
+            &_logo {
+                position: absolute;
+                z-index: 2;
+                margin-left: 450px;
+                margin-top: 200px;
+
+            }
+        }
+
+        &_right {
+          width: 100%;
+          &::after {
+            // @include after;
+            margin-top: -393px;
+            margin-left: 500px;
+            
+        }
+            &_top {
+
+                text-align: center;
+                height: 400px;
+                position: relative;
+
+            }
+        }
+
+
+        &_right_bottom {
+
+            background-image: url(img/oliva/background-right.png);
+            background-repeat: no-repeat;
+            height: 385px;
+            background-size: cover;
+        }
+    }
+
+    .dimming {
+
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+
+    }
+}
+.hr{
+    margin-left: 397px;
+}
