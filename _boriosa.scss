@@ -40,7 +40,7 @@
         &_bottom {
             position: relative;
             height: 200px;
-          
+
             background-image: url(img/boriosa/background_left.png);
             background-repeat: no-repeat;
         }
@@ -54,15 +54,79 @@
         background: url(img/boriosa/background-right.png);
         background-repeat: no-repeat;
         background-position: center;
-        
+
         background-size: 100% 100%;
 
         &_logo {
-           
+
             position: absolute;
             margin-left: 325px;
             margin-top: 220px;
 
         }
     }
+}
+
+@media (max-width: 1024px) {
+    .boriosa {
+        height: 1614px;
+        display: flex;
+        flex-direction: column-reverse;
+
+        &_left {
+            height: 520px;
+            width: 100%;
+            position: relative;
+
+            &::after {
+
+                margin-top: -394px;
+                margin-left: 510px;
+
+            }
+        }
+
+        &_right {
+            background-size: cover;
+            height: 300px;
+            width: 100%;
+
+            &_logo {
+                position: absolute;
+                margin-left: 420px;
+                margin-top: 300px;
+            }
+
+
+
+            &_top {
+
+                text-align: center;
+                height: 400px;
+                position: relative;
+
+            }
+        }
+
+
+        &_left_bottom {
+
+
+            height: 385px;
+            background-size: cover;
+        }
+    }
+
+    .dimming {
+
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+
+    }
+}
+
+.hr {
+    margin-left: 412px;
 }

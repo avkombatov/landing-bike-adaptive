@@ -52,7 +52,7 @@
                 background-color: white;
                 margin-left: 182px;
                 margin-top: 37px;
-z-index: 1;
+                z-index: 1;
             }
 
             &_logo {
@@ -87,4 +87,45 @@ z-index: 1;
         background-image: url(img/hulot/background-right.png);
         background-repeat: no-repeat;
     }
+}
+
+@media (max-width: 1024px) {
+    .hulot {
+        &_middle {
+            &_top {
+                &::after{
+                    margin-left: 138px;
+                    margin-top: 31px;
+                }
+                &_p {
+                    margin-top: 20px;
+                    line-height: 28px;
+                }
+
+                &_logo {
+                    margin-top: 27px;
+                }
+            }
+            &_bottom{
+                background-position-x: -40px;
+            }
+        }
+
+        &_right {
+            background-position: center;
+        }
+
+        &_left {
+            background-position: center;
+
+            &_logo {
+                margin-left: 67px;
+            }
+        }
+
+        &_hr {
+            margin-left: 120px;
+        }
+    }
+
 }

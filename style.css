@@ -397,6 +397,57 @@ ul li {
   margin-top: 220px;
 }
 
+@media (max-width: 1024px) {
+  .boriosa {
+    height: 1614px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .boriosa_left {
+    height: 520px;
+    width: 100%;
+    position: relative;
+  }
+  .boriosa_left::after {
+    margin-top: -394px;
+    margin-left: 510px;
+  }
+  .boriosa_right {
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+  }
+  .boriosa_right_logo {
+    position: absolute;
+    margin-left: 420px;
+    margin-top: 300px;
+  }
+  .boriosa_right_top {
+    text-align: center;
+    height: 400px;
+    position: relative;
+  }
+  .boriosa_left_bottom {
+    height: 385px;
+    background-size: cover;
+  }
+  .dimming {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.hr {
+  margin-left: 412px;
+}
+
 .hulot {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -484,6 +535,35 @@ ul li {
   background-repeat: no-repeat;
 }
 
+@media (max-width: 1024px) {
+  .hulot_middle_top::after {
+    margin-left: 138px;
+    margin-top: 31px;
+  }
+  .hulot_middle_top_p {
+    margin-top: 20px;
+    line-height: 28px;
+  }
+  .hulot_middle_top_logo {
+    margin-top: 27px;
+  }
+  .hulot_middle_bottom {
+    background-position-x: -40px;
+  }
+  .hulot_right {
+    background-position: center;
+  }
+  .hulot_left {
+    background-position: center;
+  }
+  .hulot_left_logo {
+    margin-left: 67px;
+  }
+  .hulot_hr {
+    margin-left: 120px;
+  }
+}
+
 .social {
   background: #F7F7F7;
   text-align: center;
@@ -508,6 +588,7 @@ ul li {
   margin-bottom: 110px;
   color: #9EA0A2;
   line-height: 25px;
+  font-size: 15px;
 }
 
 .social_pag {
@@ -534,6 +615,19 @@ ul li {
 
 .social_active {
   background: #A9AFB3;
+}
+
+@media (max-width: 1024px) {
+  .social {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .social_twitter {
+    margin-top: 50px;
+  }
+  .social_p {
+    margin-bottom: 70px;
+  }
 }
 
 .shop {
