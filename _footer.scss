@@ -38,8 +38,33 @@
 }
 
 @media(max-width:1024px) {
-    .footer{
+    .footer {
         padding-left: 10%;
         padding-right: 10%;
+    }
+}
+
+@media(max-width:768px) {
+    .footer {
+        height: 180px;
+        padding-top: 80px;
+        &_address {
+            &_p {
+                font-size: 12px;
+            }
+        }
+
+        &_logo {
+            &_p {
+                font-size: 12px;
+            }
+        }
+
+        &_social {
+            &_img {
+                height: 28px;
+            }
+
+        }
     }
 }

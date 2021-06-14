@@ -494,6 +494,32 @@ ul li {
   margin-left: 412px;
 }
 
+@media (max-width: 768px) {
+  .boriosa {
+    height: 1147px;
+  }
+  .boriosa_right {
+    background-size: contain;
+    height: 432px;
+  }
+  .boriosa_right_logo {
+    margin-left: 310px;
+    margin-top: 150px;
+  }
+  .boriosa_left_top {
+    height: 330px;
+  }
+  .boriosa_left_top_logo {
+    margin-top: 40px;
+  }
+  .boriosa_left::after {
+    margin-left: 384px;
+  }
+  .hr {
+    margin-left: 307px;
+  }
+}
+
 .hulot {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -607,6 +633,57 @@ ul li {
   }
   .hulot_hr {
     margin-left: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hulot {
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hulot_left {
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    width: auto;
+    background-size: cover;
+    height: 400px;
+  }
+  .hulot_left_logo {
+    margin-left: 270px;
+    margin-top: 175px;
+  }
+  .hulot_middle {
+    width: auto;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    height: 500px;
+  }
+  .hulot_middle_top {
+    height: 300px;
+  }
+  .hulot_middle_top::after {
+    margin-left: 300px;
+    margin-top: 44px;
+  }
+  .hulot_middle_bottom {
+    background-position: 0px;
+    background-size: cover;
+  }
+  .hulot_right {
+    width: auto;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    height: 400px;
+    background-size: cover;
+  }
+  .hulot_hr {
+    margin-left: 285px;
   }
 }
 
@@ -874,6 +951,66 @@ ul li {
   display: none;
 }
 
+@media (max-width: 768px) {
+  .shop {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .shop_left, .shop_right {
+    width: 100%;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+  }
+  .shop_left_top_a, .shop_right_top_a {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+  .shop_left_bottom_a, .shop_right_bottom_a {
+    width: 100%;
+  }
+  .shop_middle {
+    width: 100%;
+  }
+  .shop_middle_left {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+  .shop_middle_right {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+  .hidden_middle_img {
+    margin-top: 400px;
+    margin-left: 175px;
+  }
+  .hidden_middle_p {
+    margin-top: 435px;
+    margin-left: 160px;
+  }
+  .hidden_img {
+    margin-top: 165px;
+    margin-left: 165px;
+  }
+  .hidden_p {
+    margin-top: 200px;
+    margin-left: 150px;
+  }
+  .hidden_bottom_top_img {
+    margin-left: 360px;
+    margin-top: 150px;
+  }
+  .hidden_bottom_top_p {
+    margin-top: 183px;
+    margin-left: 348px;
+  }
+}
+
 .shop_button {
   height: 200px;
   background-color: black;
@@ -990,6 +1127,27 @@ ul li {
   }
 }
 
+@media (max-width: 768px) {
+  .email {
+    height: 350px;
+  }
+  .email_logo {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  .email_p {
+    margin-bottom: 30px;
+  }
+  .email_input {
+    width: 370px;
+    height: 60px;
+  }
+  .email_button {
+    height: 60px;
+    width: 100px;
+  }
+}
+
 .footer {
   height: 250px;
   background: #F7F7F7;
@@ -1034,6 +1192,22 @@ ul li {
   .footer {
     padding-left: 10%;
     padding-right: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    height: 180px;
+    padding-top: 80px;
+  }
+  .footer_address_p {
+    font-size: 12px;
+  }
+  .footer_logo_p {
+    font-size: 12px;
+  }
+  .footer_social_img {
+    height: 28px;
   }
 }
 /*# sourceMappingURL=style.css.map */

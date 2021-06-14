@@ -93,10 +93,11 @@
     .hulot {
         &_middle {
             &_top {
-                &::after{
+                &::after {
                     margin-left: 138px;
                     margin-top: 31px;
                 }
+
                 &_p {
                     margin-top: 20px;
                     line-height: 28px;
@@ -106,7 +107,8 @@
                     margin-top: 27px;
                 }
             }
-            &_bottom{
+
+            &_bottom {
                 background-position-x: -40px;
             }
         }
@@ -125,6 +127,57 @@
 
         &_hr {
             margin-left: 120px;
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+    .hulot {
+        height: auto;
+        flex-direction: column;
+
+        &_left {
+            flex-grow: 0;
+            width: auto;
+            background-size: cover;
+            height: 400px;
+
+            &_logo {
+                margin-left: 270px;
+                margin-top: 175px;
+            }
+        }
+
+        &_middle {
+            width: auto;
+            flex-grow: 0;
+            height: 500px;
+
+            &_top {
+                height: 300px;
+
+                &::after {
+                    margin-left: 300px;
+                    margin-top: 44px;
+                }
+            }
+
+            &_bottom {
+                background-position: 0px;
+                background-size: cover;
+            }
+        }
+
+        &_right {
+            width: auto;
+            flex-grow: 0;
+            height: 400px;
+            background-size: cover;
+        }
+
+        &_hr {
+            margin-left: 285px;
         }
     }
 

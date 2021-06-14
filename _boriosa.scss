@@ -131,11 +131,33 @@
 .hr {
     margin-left: 412px;
 }
-@media (max-width:768px){
-    .boriosa{
-        &_right{
-            // flex-grow: 1;
+
+@media (max-width:768px) {
+    .boriosa {
+        height: 1147px;
+        &_right {
+            background-size: contain;
+            height: 432px;
+
+            &_logo {
+                margin-left: 310px;
+                margin-top: 150px;
+            }
 
         }
+        &_left{
+            &_top{
+                height: 330px;
+                &_logo{
+                    margin-top: 40px;
+                }
+            }
+            &::after{
+               margin-left: 384px;
+            }
+        }
+    }
+    .hr{
+        margin-left: 307px;
     }
 }
