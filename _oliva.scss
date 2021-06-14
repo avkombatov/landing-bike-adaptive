@@ -91,13 +91,15 @@
         }
 
         &_right {
-          width: 100%;
-          &::after {
-            // @include after;
-            margin-top: -393px;
-            margin-left: 500px;
-            
-        }
+            width: 100%;
+
+            &::after {
+                // @include after;
+                margin-top: -393px;
+                margin-left: 500px;
+
+            }
+
             &_top {
 
                 text-align: center;
@@ -126,6 +128,51 @@
 
     }
 }
-.hr{
+
+.hr {
     margin-left: 397px;
+}
+
+@media(max-width: 768px) {
+    .oliva {
+        height: 1152px;
+
+        &_right {
+            height: 100%;
+
+            &_bottom {
+                background-size: contain;
+                height: 288px;
+            }
+
+            &::after {
+                margin-left: 380px;
+                margin-top: -295px;
+            }
+
+            &_top {
+                height: 350px;
+
+                &_logo {
+                    margin-top: 50px;
+                }
+            }
+        }
+
+        &_left {
+            height: 100%;
+            background-size: cover;
+            flex-grow: 1;
+
+            &_logo {
+                margin-left: 330px;
+                margin-top: 270px;
+            }
+        }
+
+        .hr {
+            margin-left: 302px;
+        }
+    }
+
 }

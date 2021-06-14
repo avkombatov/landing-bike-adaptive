@@ -43,6 +43,13 @@
     .vintage {
         height: 450px;
 
+        &_h2 {
+            margin-bottom: 30px;
+        }
+
+        &_p {
+            font-size: 16px;
+        }
 
         &_logo {
             margin-top: 40px;

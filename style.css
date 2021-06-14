@@ -43,7 +43,7 @@
 
 @media (max-width: 768px) {
   .header {
-    background-size: 100% 100%;
+    background-size: cover;
     height: 500px;
   }
 }
@@ -159,6 +159,12 @@ ul li {
 @media (max-width: 768px) {
   .vintage {
     height: 450px;
+  }
+  .vintage_h2 {
+    margin-bottom: 30px;
+  }
+  .vintage_p {
+    font-size: 16px;
   }
   .vintage_logo {
     margin-top: 40px;
@@ -316,6 +322,43 @@ ul li {
   margin-left: 397px;
 }
 
+@media (max-width: 768px) {
+  .oliva {
+    height: 1152px;
+  }
+  .oliva_right {
+    height: 100%;
+  }
+  .oliva_right_bottom {
+    background-size: contain;
+    height: 288px;
+  }
+  .oliva_right::after {
+    margin-left: 380px;
+    margin-top: -295px;
+  }
+  .oliva_right_top {
+    height: 350px;
+  }
+  .oliva_right_top_logo {
+    margin-top: 50px;
+  }
+  .oliva_left {
+    height: 100%;
+    background-size: cover;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+  }
+  .oliva_left_logo {
+    margin-left: 330px;
+    margin-top: 270px;
+  }
+  .oliva .hr {
+    margin-left: 302px;
+  }
+}
+
 .boriosa {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -399,7 +442,7 @@ ul li {
 
 @media (max-width: 1024px) {
   .boriosa {
-    height: 1614px;
+    height: 1305px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -419,13 +462,16 @@ ul li {
   }
   .boriosa_right {
     background-size: cover;
-    height: 300px;
+    height: 520px;
     width: 100%;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
   }
   .boriosa_right_logo {
     position: absolute;
     margin-left: 420px;
-    margin-top: 300px;
+    margin-top: 210px;
   }
   .boriosa_right_top {
     text-align: center;
@@ -935,6 +981,15 @@ ul li {
   display: flex;
 }
 
+@media (max-width: 1024px) {
+  .email {
+    height: 430px;
+  }
+  .email_logo {
+    margin-top: 70px;
+  }
+}
+
 .footer {
   height: 250px;
   background: #F7F7F7;
@@ -973,5 +1028,12 @@ ul li {
 .span_address {
   font-weight: bold;
   color: #888A8C;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
