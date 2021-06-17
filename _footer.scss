@@ -68,3 +68,16 @@
         }
     }
 }
+@media(max-width:425px){
+    .footer{
+        padding-top: 40px;
+        display: block;
+        text-align: center;
+        &_logo{
+            display: none;
+        }
+        &_address{
+            margin-bottom: 20px;
+        }
+    }
+}

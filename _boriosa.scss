@@ -135,6 +135,7 @@
 @media (max-width:768px) {
     .boriosa {
         height: 1147px;
+
         &_right {
             background-size: contain;
             height: 432px;
@@ -145,19 +146,65 @@
             }
 
         }
-        &_left{
-            &_top{
+
+        &_left {
+            &_top {
                 height: 330px;
-                &_logo{
+
+                &_logo {
                     margin-top: 40px;
                 }
             }
-            &::after{
-               margin-left: 384px;
+
+            &::after {
+                margin-left: 384px;
             }
         }
     }
-    .hr{
+
+    .hr {
         margin-left: 307px;
+    }
+}
+
+@media(max-width:425px) {
+    .boriosa {
+        height: 488px;
+
+        &_right {
+            display: none;
+        }
+
+        &_left {
+            height: auto;
+            height: 160px;
+            background-size: contain;
+            &_top {
+                &_logo {
+                    margin-top: 20px;
+                }
+                &_p {
+                    font-size: 14px;
+                    line-height: 27px;
+                }
+    
+            } 
+            &::after {
+            margin-left: 212px;
+            margin-top: -167px;
+        }
+        &_bottom{
+            background-size: contain;
+            height: 159px;
+        }
+        }
+
+       
+
+      
+    }
+
+    .hr {
+        margin-left: 162px;
     }
 }

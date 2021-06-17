@@ -182,3 +182,30 @@
     }
 
 }
+@media(max-width:425px){
+    .hulot{
+        &_middle{
+            &_top{
+                height: 320px;
+                &_logo {
+                    margin-top: 20px;
+                }
+                &_p {
+                    font-size: 14px;
+                    line-height: 27px;
+                }
+                &::after{
+                    margin-left: 181px;
+                    margin-top: 19px;
+                }
+            }
+        }
+        &_left{
+            display: none;
+        }
+        &_hr{
+        margin-left: 164px;
+    }
+    
+    }
+}

@@ -227,7 +227,8 @@
                 margin-top: 400px;
                 margin-left: 175px;
             }
-            &_p{
+
+            &_p {
                 margin-top: 435px;
                 margin-left: 160px;
             }
@@ -258,3 +259,46 @@
         }
     }
 }
+
+@media(max-width:425px) {
+   
+
+    .hidden {
+        &_img {
+            margin-top: 80px;
+            margin-left: 90px;
+        }
+
+        &_p {
+            margin-top: 111px;
+            margin-left: 77px;
+        }
+        &_middle{
+        &_img{
+            margin-top: 200px;
+            margin-left: 80px;
+        }
+        &_p{
+            margin-top: 232px;
+            margin-left: 67px;
+        }
+    }
+       &_bottom {
+        &_top {
+            &_p {
+                margin-top: 114px;
+                margin-left: 185px;
+            }
+    
+            &_img {
+                margin-left: 200px;
+                margin-top: 80px;
+            }
+        }
+    }
+    }
+    
+    
+ 
+}
+

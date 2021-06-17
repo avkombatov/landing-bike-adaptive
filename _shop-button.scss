@@ -24,3 +24,13 @@ transition: 0.2s;
         padding-top: 75px;
         margin: 0px auto;
 }
+@media(max-width:425px){
+    .shop_button{
+height: 140px;
+    }
+    .button_block{
+        // width: 250px;
+        padding-top: 45px;
+          
+    }
+}

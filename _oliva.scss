@@ -127,11 +127,12 @@
         width: 100%;
 
     }
+    .hr {
+        margin-left: 397px;
+    }
+    
 }
 
-.hr {
-    margin-left: 397px;
-}
 
 @media(max-width: 768px) {
     .oliva {
@@ -175,4 +176,41 @@
         }
     }
 
+}
+
+@media(max-width:425px) {
+    .oliva {
+        height: 509px;
+
+        &_left {
+            display: none;
+            
+        }
+
+        &_right {
+            &_bottom{
+                height: 160px;
+            }
+            &::after {
+                margin-left: 212px;
+                margin-top: -167px;
+            }
+
+            &_top {
+                &_p {
+                    font-size: 14px;
+                    line-height: 27px;
+                }
+
+                &_logo {
+                    margin-top: 20px;
+                }
+            }
+        } 
+        .hr {
+        margin-left: 162px;
+    }
+    }
+
+   
 }
